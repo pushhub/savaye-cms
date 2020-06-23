@@ -10,7 +10,7 @@
         "database": "${process.env.DATABASE_NAME || 'savaye'}",
         "username": "${process.env.DATABASE_USERNAME || 'korede'}",
         "password": "${process.env.DATABASE_PASSWORD || 'korede'}",
-        "srv": "${process.env.DATABASE_SRV || 'mongodb+srv://korede:korede@cluster0-mnkp0.mongodb.net/<dbname>?retryWrites=true&w=majority'}"
+        "srv": "${process.env.DATABASE_SRV || 'mongodb+srv://korede:korede@cluster0-mnkp0.mongodb.net/savaye?retryWrites=true&w=majority'}"
       },
       "options": {}
     }
