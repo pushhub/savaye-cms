@@ -10,7 +10,7 @@
         "database": "savaye",
         "username": "korede",
         "password": "korede",
-        "srv": "mongodb+srv://korede:korede@cluster0-mnkp0.mongodb.net/<dbname>?retryWrites=true&w=majority"
+        "srv": "mongodb+srv://korede:korede@cluster0-mnkp0.mongodb.net/savaye?retryWrites=true&w=majority"
       },
       "options": {}
     }
