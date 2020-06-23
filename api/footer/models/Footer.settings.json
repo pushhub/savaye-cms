@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "footer",
+    "description": "footer  CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "link-title": {
+      "type": "string"
+    },
+    "link-view": {
+      "type": "string"
+    },
+    "params": {
+      "type": "string"
+    },
+    "external-link": {
+      "type": "string"
+    }
+  }
+}

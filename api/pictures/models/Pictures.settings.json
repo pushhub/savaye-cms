@@ -1,0 +1,36 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "pictures",
+    "description": "picture CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "summary": {
+      "type": "string"
+    },
+    "caption": {
+      "type": "string"
+    },
+    "picture": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "slug": {
+      "enum": [
+        "Outreach",
+        "Relationship",
+        "Seminars",
+        "Church",
+        "Presentation",
+        "Workshops",
+        "Workplace"
+      ],
+      "type": "enumeration"
+    }
+  }
+}

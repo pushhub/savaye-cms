@@ -1,0 +1,22 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "testimonials",
+    "description": "testimonials cms "
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "firstname": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}

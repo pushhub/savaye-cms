@@ -1,0 +1,1 @@
+{"_id":{"$oid":"5ef1f49ea8c924225ea5a279"},"confirmed":true,"blocked":false,"username":"korede","password":"$2a$10$GJjsvz68PoxmMBFUoiVTru7NgHePYMh2tsTRuI1sggKxWHkwheDki","email":"adewaleonamade@gmail.com","provider":"local","role":{"$oid":"5ef1f34ba8c924225ea5a195"},"__v":{"$numberInt":"0"}}

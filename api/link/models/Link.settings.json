@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "link",
+    "description": "link CMS for  resource"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "link-name": {
+      "type": "string"
+    },
+    "link-url": {
+      "type": "string"
+    }
+  }
+}

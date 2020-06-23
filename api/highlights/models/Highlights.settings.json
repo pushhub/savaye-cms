@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "highlights",
+    "description": "highlight CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "highlight": {
+      "type": "text"
+    },
+    "credit": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "welcomepage",
+    "description": "welcome page  CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "welcome-note": {
+      "type": "text"
+    },
+    "question-1": {
+      "type": "string"
+    },
+    "question-2": {
+      "type": "string"
+    },
+    "question-3": {
+      "type": "string"
+    },
+    "question-5": {
+      "type": "string"
+    },
+    "video-title": {
+      "type": "string"
+    },
+    "video-id": {
+      "type": "string"
+    },
+    "video-type": {
+      "type": "string"
+    },
+    "question-4": {
+      "type": "string"
+    }
+  }
+}

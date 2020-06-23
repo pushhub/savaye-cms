@@ -1,0 +1,3 @@
+{"_id":{"$oid":"5ef1f34ba8c924225ea5a195"},"name":"Administrator","description":"These users have all access in the project.","type":"root","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ef1f34ba8c924225ea5a196"},"name":"Authenticated","description":"Default role given to authenticated user.","type":"authenticated","__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5ef1f34ba8c924225ea5a197"},"name":"Public","description":"Default role given to unauthenticated user.","type":"public","__v":{"$numberInt":"0"}}

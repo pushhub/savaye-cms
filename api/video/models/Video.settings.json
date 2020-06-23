@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "video",
+    "description": "video CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "summary": {
+      "type": "string"
+    },
+    "footer": {
+      "type": "string"
+    },
+    "video-title": {
+      "type": "string"
+    },
+    "video-id": {
+      "type": "string"
+    },
+    "video-type": {
+      "type": "string"
+    },
+    "slug": {
+      "enum": [
+        "Outreach",
+        "Relationship",
+        "Seminars",
+        "Church",
+        "Presentation",
+        "Workshops",
+        "Workplace"
+      ],
+      "type": "enumeration"
+    }
+  }
+}

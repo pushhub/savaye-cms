@@ -1,0 +1,46 @@
+{
+  "connection": "default",
+  "collectionName": "pagecms",
+  "info": {
+    "name": "pagecms",
+    "description": "page CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "short-text": {
+      "type": "string"
+    },
+    "title-light": {
+      "type": "string"
+    },
+    "title-bold": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "page-name": {
+      "type": "string"
+    },
+    "page-banner": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "portrait-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "landsacpe-images": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "highlight": {
+      "model": "highlights"
+    }
+  }
+}

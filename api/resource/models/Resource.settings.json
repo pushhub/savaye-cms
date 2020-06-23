@@ -1,0 +1,39 @@
+{
+  "connection": "default",
+  "collectionName": "resource",
+  "info": {
+    "name": "resource",
+    "description": "resource cms"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "brand-name": {
+      "type": "string"
+    },
+    "brand-url": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "call-to-action": {
+      "type": "string"
+    },
+    "call-to-action-url": {
+      "type": "string"
+    },
+    "resource-title": {
+      "type": "string"
+    },
+    "resource-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "link": {
+      "model": "link"
+    }
+  }
+}

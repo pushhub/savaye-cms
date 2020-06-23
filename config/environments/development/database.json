@@ -1,0 +1,18 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "strapi-hook-mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "localhost",
+        "port": 27017,
+        "database": "savaye",
+        "username": "korede",
+        "password": "korede",
+        "srv": "mongodb://localhost:27017/savaye"
+      },
+      "options": {}
+    }
+  }
+}

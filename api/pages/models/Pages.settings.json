@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "pages",
+  "info": {
+    "name": "pages",
+    "description": "pages  CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pagecms": {
+      "model": "pagecms"
+    }
+  }
+}

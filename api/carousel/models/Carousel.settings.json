@@ -1,0 +1,21 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "carousel",
+    "description": "carousel  CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "slide-caption": {
+      "type": "string"
+    },
+    "slide-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}

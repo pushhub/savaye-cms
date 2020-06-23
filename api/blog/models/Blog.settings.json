@@ -1,0 +1,44 @@
+{
+  "connection": "default",
+  "collectionName": "blog",
+  "info": {
+    "name": "blog",
+    "description": "blog cms"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "banner": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "feature": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "thumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "title-light": {
+      "type": "string"
+    },
+    "title-bold": {
+      "type": "string"
+    },
+    "comments": {
+      "collection": "comments",
+      "via": "blog"
+    }
+  }
+}

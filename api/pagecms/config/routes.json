@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pagecms",
+      "handler": "Pagecms.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pagecms/count",
+      "handler": "Pagecms.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/pagecms/:_id",
+      "handler": "Pagecms.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/pagecms",
+      "handler": "Pagecms.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pagecms/:_id",
+      "handler": "Pagecms.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pagecms/:_id",
+      "handler": "Pagecms.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/welcomepages",
+      "handler": "Welcomepage.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welcomepages/count",
+      "handler": "Welcomepage.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/welcomepages/:_id",
+      "handler": "Welcomepage.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/welcomepages",
+      "handler": "Welcomepage.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/welcomepages/:_id",
+      "handler": "Welcomepage.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/welcomepages/:_id",
+      "handler": "Welcomepage.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "outcomes",
+    "description": "outcomes CMS"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "summary-text": {
+      "type": "string"
+    },
+    "first-outcome-title": {
+      "type": "string"
+    },
+    "first-outcome-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "second-outcome-title": {
+      "type": "string"
+    },
+    "second-outcome-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "third-outcome-title": {
+      "type": "string"
+    },
+    "third-outcome-image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    }
+  }
+}
